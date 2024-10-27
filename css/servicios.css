@@ -1,4 +1,4 @@
-/* Estilos para la página de Servicios */
+
 .services {
     text-align: center;
     padding: 50px 20px;
@@ -55,7 +55,7 @@
     transform: scale(1.05);
 }
 
-/* Responsividad para la página de Servicios */
+
 @media (max-width: 768px) {
     .service-list {
         flex-direction: column;
