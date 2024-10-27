@@ -1,9 +1,9 @@
-/* Ajuste de introducción y centrado para "Sobre Nosotros" */
+
 .about-intro {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra el contenido horizontalmente */
-    text-align: center; /* Centra el texto */
+    align-items: center;
+    text-align: center; 
     margin-top: 40px;
 }
 
@@ -14,37 +14,37 @@
 }
 
 .about-intro p {
-    max-width: 800px; /* Limita el ancho del texto */
+    max-width: 800px; 
     color: #555;
     font-size: 1em;
 }
 
-/* Ajuste de imágenes de introducción */
+
 .about-intro img {
     max-width: 100%;
     height: auto;
-    border-radius: 15px; /* Borde redondeado */
-    transition: transform 0.3s ease; /* Transición para animación */
+    border-radius: 15px; 
+    transition: transform 0.3s ease;
 }
 
 .about-intro img:hover {
-    transform: scale(1.05); /* Aumenta el tamaño de la imagen al pasar el mouse */
+    transform: scale(1.05);
 }
 
-/* Ajuste de imágenes en Misión y Visión */
+
 .mission-vision-container img {
     width: 100%;
-    max-width: 300px; /* Limita el ancho en dispositivos grandes */
+    max-width: 300px;
     height: auto;
-    border-radius: 15px; /* Bordes redondeados */
-    transition: transform 0.3s ease; /* Transición para animación */
+    border-radius: 15px;
+    transition: transform 0.3s ease; 
 }
 
 .mission-vision-container img:hover {
-    transform: scale(1.05); /* Aumenta el tamaño de la imagen al pasar el mouse */
+    transform: scale(1.05);
 }
 
-/* Contenedor principal de Misión y Visión */
+
 .mission-vision-container {
     display: flex;
     justify-content: center;
@@ -53,13 +53,13 @@
     flex-wrap: wrap;
 }
 
-/* Ajuste de sección individual de Misión y Visión */
+
 .about-section {
     text-align: center;
     width: 300px;
 }
 
-/* Otros estilos para mantener la apariencia del texto */
+
 .about-section h3 {
     font-size: 1.6em;
     margin-bottom: 10px;
@@ -70,7 +70,7 @@
     color: #555;
 }
 
-/* Valores */
+
 .values-section {
     max-width: 800px;
     margin: 0 auto 40px auto;
@@ -93,7 +93,7 @@
     padding: 5px 0;
 }
 
-/* Responsivo para pantallas más pequeñas */
+
 @media (max-width: 768px) {
     .mission-vision-container {
         flex-direction: column;
@@ -106,7 +106,7 @@
     }
 }
 
-/* Pie de página */
+
 footer {
     background-color: #333;
     color: #fff;
